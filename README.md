@@ -8,6 +8,13 @@
 from demo_package import utils
 
 print(utils.add_two_numbers(1, 2))
+print(utils.get_url('https://www.google.com').status_code)
+
 ```
 
-The output should be `3`!!
+The output should be 
+
+```
+3
+200
+```
